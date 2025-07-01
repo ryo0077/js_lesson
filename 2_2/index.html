@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>クリックイベントと切り替え</title>
   <link rel="stylesheet" type="text/css" href="base.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  <script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
 
   </script>
 </head>
+
 <body>
   <div id="wrapper">
     <div id="button1" class="button">
@@ -21,18 +24,19 @@
     </div><!-- button3 -->
   </div><!-- wrapper -->
   <script>
-        $('#button1').click(function () {
-            $('.button').css('background', '#fdd');
-            $(this).css('background', 'red');
-        });
-        $('#button2').click(function () {
-            $('.button').css('background', '#fdd');
-            $(this).css('background', 'red');
-        });
-        $('#button3').click(function () {
-            $('.button').css('background', '#fdd');
-            $(this).css('background', 'red');
-        });
-    </script>
+    $('#button1').click(function () {
+      $('.button').css('background', '#fdd');
+      $(this).css('background', 'red');
+    });
+    $('#button2').click(function () {
+      $('.button').css('background', '#fdd');
+      $(this).css('background', 'red');
+    });
+    $('#button3').click(function () {
+      $('.button').css('background', '#fdd');
+      $(this).css('background', 'red');
+    });
+  </script>
 </body>
+
 </html>
